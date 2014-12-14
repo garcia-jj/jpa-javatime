@@ -11,6 +11,19 @@
 	<name>jpa-javatime</name>
 	<url>https://github.com/garcia-jj/jpa-javatime</url>
 
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+
+	<scm>
+		<url>http://github.com/garcia-jj/jpa-javatime</url>
+		<connection>scm:git:git://github.com/garcia-jj/jpa-javatime</connection>
+		<developerConnection>scm:git:git@github.com:garcia-jj/jpa-javatime.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
 	<licenses>
 		<license>
 			<distribution>repo</distribution>
@@ -63,6 +76,10 @@
 					</compilerArguments>
 					<encoding>${project.build.sourceEncoding}</encoding>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
