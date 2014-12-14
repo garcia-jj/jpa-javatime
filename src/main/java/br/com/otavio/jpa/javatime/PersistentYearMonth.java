@@ -22,7 +22,7 @@ import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
 /**
- * Convert a {@link YearMonth} into database column representation as {@link Date} and back again.
+ * Convert a {@link java.time.YearMonth} into database column representation as {@link java.sql.Date} and back again.
  * 
  * @author Otávio S Garcia
  */

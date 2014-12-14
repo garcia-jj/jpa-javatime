@@ -22,7 +22,7 @@ import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
 /**
- * Convert a {@link LocalDateTime} into database column representation as {@link Date} and back again.
+ * Convert a {@link java.time.LocalDateTime} into database column representation as {@link java.sql.Timestamp} and back again.
  * 
  * @author Otávio S Garcia
  */

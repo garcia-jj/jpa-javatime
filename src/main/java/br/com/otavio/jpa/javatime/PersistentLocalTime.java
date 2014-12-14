@@ -22,7 +22,7 @@ import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
 /**
- * Convert a {@link LocalTime} into database column representation as {@link Time} and back again.
+ * Convert a {@link java.time.LocalTime} into database column representation as {@link java.sql.Time} and back again.
  * 
  * @author Otávio S Garcia
  */
