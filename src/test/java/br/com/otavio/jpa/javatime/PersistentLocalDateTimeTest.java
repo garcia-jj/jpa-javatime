@@ -49,11 +49,11 @@ public class PersistentLocalDateTimeTest {
 	@Test
 	public void shouldConvertToEntityWithInputValue() {
 		Calendar input = new GregorianCalendar(2010, Calendar.JANUARY, 1, 1, 10, 30);
-		Timestamp sqlDate = new Timestamp(input.getTimeInMillis());
+		Timestamp fromSQL = new Timestamp(input.getTimeInMillis());
 
 		LocalDateTime expected = LocalDate.of(2010, Month.JANUARY, 1).atTime(1, 10, 30, 0);
 
-		LocalDateTime converted = converter.convertToEntityAttribute(sqlDate);
+		LocalDateTime converted = converter.convertToEntityAttribute(fromSQL);
 		assertThat(converted, is(expected));
 	}
 }

@@ -48,11 +48,11 @@ public class PersistentYearMonthTest {
 	@Test
 	public void shouldConvertToEntityWithInputValue() {
 		Calendar input = new GregorianCalendar(2010, Calendar.JANUARY, 1, 0, 0, 0);
-		Date sqlDate = new Date(input.getTimeInMillis());
+		Date fromSQL = new Date(input.getTimeInMillis());
 
 		YearMonth expected = YearMonth.of(2010, Month.JANUARY);
 
-		YearMonth converted = converter.convertToEntityAttribute(sqlDate);
+		YearMonth converted = converter.convertToEntityAttribute(fromSQL);
 		assertThat(converted, is(expected));
 	}
 }
