@@ -1,7 +1,7 @@
 jpa-javatime
 ============
 
-![Build status](https://secure.travis-ci.org/garcia-jj/jpa-javatime.png)
+![Build status](https://secure.travis-ci.org/garcia-jj/jpa-javatime.png) [![Coverage Status](https://img.shields.io/coveralls/garcia-jj/jpa-javatime.svg)](https://coveralls.io/r/garcia-jj/jpa-javatime)
 
 A simple project with adapters to use `java.time` classes with JPA.
 
