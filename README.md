@@ -22,8 +22,8 @@ Or if you don't like to use Maven or any dependency manager, you can copy the ja
 And after you need to add the converters in your `persistence.xml` file:
 
 ```xml
-	<class>br.com.otavio.jpa.javatime.PersistentLocalDate</class>
-	<class>br.com.otavio.jpa.javatime.PersistentLocalDateTime</class>
-	<class>br.com.otavio.jpa.javatime.PersistentLocalTime</class>
-	<class>br.com.otavio.jpa.javatime.PersistentYearMonth</class>
+<class>br.com.otavio.jpa.javatime.PersistentLocalDate</class>
+<class>br.com.otavio.jpa.javatime.PersistentLocalDateTime</class>
+<class>br.com.otavio.jpa.javatime.PersistentLocalTime</class>
+<class>br.com.otavio.jpa.javatime.PersistentYearMonth</class>
 ```
