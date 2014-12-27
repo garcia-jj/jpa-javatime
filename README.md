@@ -13,7 +13,7 @@ To install you need to add this artifact in your `pom.xml` if you are using Mave
 <dependency>
     <groupId>br.com.otavio</groupId>
     <artifactId>jpa-javatime</artifactId>
-    <version>0.1</version>
+    <version>0.2</version>
 </dependency>
 ```
 
