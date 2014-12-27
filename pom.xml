@@ -3,7 +3,7 @@
 
 	<groupId>br.com.otavio</groupId>
 	<artifactId>jpa-javatime</artifactId>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.2</version>
 	<packaging>jar</packaging>
 	<description>Converters to use java.time classes with JPA</description>
 
