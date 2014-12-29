@@ -17,7 +17,7 @@ To install you need to add this artifact in your `pom.xml` if you are using Mave
 </dependency>
 ```
 
-Or if you don't like to use Maven or any dependency manager, you can copy the jar [available here](http://mvnrepository.com/artifact/br.com.otavio/jpa-javatime/0.2) to your project by your hands.
+Or if you don't like to use Maven or any dependency manager, you can copy the jar [available here](http://repo1.maven.org/maven2/br/com/otavio/jpa-javatime/0.2/jpa-javatime-0.2.jar) to your project by your hands.
 
 And after you need to add the converters in your `persistence.xml` file:
 
